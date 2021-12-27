@@ -1,0 +1,21 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+http:
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - !secret trusted_proxies
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+sonoff:
+  username: !secret sonoff_username
+  password: !secret sonoff_password

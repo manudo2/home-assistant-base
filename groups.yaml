@@ -1,0 +1,38 @@
+master:
+  name: master
+  entities:
+    - light.switch_master_mdm_right
+    - light.switch_master_balco_right
+    - light.switch_master_manu_left
+living:
+  name: living
+  entities:
+    - light.switch_living_a_left
+    - light.switch_living_a_right
+    - light.switch_living_b_left
+    - light.switch_living_b_right
+    - light.switch_boinder_right
+    - light.yeelight_color_0x36dc6a2
+hall:
+  name: hall
+  entities:
+    - light.switch_hall_left
+    - light.switch_hall_right
+casa:
+  name: casa
+  entities:
+    - light.switch_hall_left
+    - light.switch_hall_right
+    - light.switch_saleta_switch
+    - light.switch_estudi_switch
+    - light.tasmo_trasterito
+    - light.passadis
+pati:
+  name: pati
+  entities:
+    - light.switch_pati_bany_switch
+    - light.switch_pati_cuina_left
+    - light.switch_pati_cuina_right
+    - light.switch_pati_guirnalda_left
+    - light.switch_pati_guirnalda_right
+    - light.switch_pati_nevera_switch
